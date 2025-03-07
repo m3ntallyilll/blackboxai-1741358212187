@@ -1,0 +1,90 @@
+/* Custom styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#gameLog {
+    scrollbar-width: thin;
+    scrollbar-color: #3b82f6 #1e293b;
+}
+
+#gameLog::-webkit-scrollbar {
+    width: 8px;
+}
+
+#gameLog::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+#gameLog::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 4px;
+}
+
+#gameLog::-webkit-scrollbar-thumb:hover {
+    background: #2563eb;
+}
+
+/* Game UI Enhancements */
+.bg-gray-800 {
+    background-color: #1f2937;
+}
+
+.bg-gray-700 {
+    background-color: #374151;
+}
+
+.hover\:bg-gray-600:hover {
+    background-color: #4b5563;
+}
+
+/* Notification Styles */
+.notification {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    z-index: 1000;
+}
+
+.notification.success {
+    background-color: #10b981;
+}
+
+.notification.error {
+    background-color: #ef4444;
+}
+
+/* Progress Bars */
+.progress-bar {
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+/* Action Buttons */
+.action-btn {
+    transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Location Cards */
+.location-card {
+    transition: all 0.2s ease;
+}
+
+.location-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
